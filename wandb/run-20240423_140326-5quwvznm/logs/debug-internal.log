@@ -1,0 +1,195 @@
+2024-04-23 14:03:26,430 INFO    StreamThr :1412771 [internal.py:wandb_internal():86] W&B internal server running at pid: 1412771, started at: 2024-04-23 14:03:26.429887
+2024-04-23 14:03:26,431 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: status
+2024-04-23 14:03:26,432 INFO    WriterThread:1412771 [datastore.py:open_for_write():85] open: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/run-5quwvznm.wandb
+2024-04-23 14:03:26,433 DEBUG   SenderThread:1412771 [sender.py:send():375] send: header
+2024-04-23 14:03:26,495 DEBUG   SenderThread:1412771 [sender.py:send():375] send: run
+2024-04-23 14:03:27,133 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: check_version
+2024-04-23 14:03:27,136 INFO    SenderThread:1412771 [dir_watcher.py:__init__():219] watching files in: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files
+2024-04-23 14:03:27,137 INFO    SenderThread:1412771 [sender.py:_start_run_threads():1124] run started: 5quwvznm with start time 1713855806.429363
+2024-04-23 14:03:27,137 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: summary_record
+2024-04-23 14:03:27,137 INFO    SenderThread:1412771 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-23 14:03:27,137 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: check_version
+2024-04-23 14:03:27,390 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: run_start
+2024-04-23 14:03:27,414 DEBUG   HandlerThread:1412771 [system_info.py:__init__():31] System info init
+2024-04-23 14:03:27,414 DEBUG   HandlerThread:1412771 [system_info.py:__init__():46] System info init done
+2024-04-23 14:03:27,414 INFO    HandlerThread:1412771 [system_monitor.py:start():181] Starting system monitor
+2024-04-23 14:03:27,414 INFO    SystemMonitor:1412771 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-04-23 14:03:27,415 INFO    HandlerThread:1412771 [system_monitor.py:probe():201] Collecting system info
+2024-04-23 14:03:27,415 INFO    SystemMonitor:1412771 [interfaces.py:start():190] Started cpu monitoring
+2024-04-23 14:03:27,415 INFO    SystemMonitor:1412771 [interfaces.py:start():190] Started disk monitoring
+2024-04-23 14:03:27,416 INFO    SystemMonitor:1412771 [interfaces.py:start():190] Started gpu monitoring
+2024-04-23 14:03:27,416 INFO    SystemMonitor:1412771 [interfaces.py:start():190] Started memory monitoring
+2024-04-23 14:03:27,417 INFO    SystemMonitor:1412771 [interfaces.py:start():190] Started network monitoring
+2024-04-23 14:03:27,439 DEBUG   HandlerThread:1412771 [system_info.py:probe():195] Probing system
+2024-04-23 14:03:27,445 DEBUG   HandlerThread:1412771 [system_info.py:_probe_git():180] Probing git
+2024-04-23 14:03:27,468 DEBUG   HandlerThread:1412771 [system_info.py:_probe_git():188] Probing git done
+2024-04-23 14:03:27,468 DEBUG   HandlerThread:1412771 [system_info.py:probe():240] Probing system done
+2024-04-23 14:03:27,468 DEBUG   HandlerThread:1412771 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-102-generic-x86_64-with-glibc2.10', 'python': '3.8.19', 'heartbeatAt': '2024-04-23T07:03:27.439321', 'startedAt': '2024-04-23T07:03:26.423271', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/s/luongtk/news-title-classification/evaluate.py', 'codePath': 'evaluate.py', 'git': {'remote': 'https://github.com/khanhluong34/news-title-classification.git', 'commit': '3aa736ca2884a5161f3c8c9d8e5c8243cf34874f'}, 'email': None, 'root': '/home/s/luongtk/news-title-classification', 'host': 'vin', 'username': 's', 'executable': '/home/s/anaconda3/envs/luongtk/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3982.5141875, 'min': 800.0, 'max': 4925.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 800.0, 'max': 4900.0}, {'current': 3600.0, 'min': 800.0, 'max': 4900.0}, {'current': 4620.073, 'min': 800.0, 'max': 5000.0}, {'current': 4620.375, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 4900.0}, {'current': 4621.087, 'min': 800.0, 'max': 4900.0}, {'current': 4620.618, 'min': 800.0, 'max': 4900.0}, {'current': 4621.099, 'min': 800.0, 'max': 4900.0}, {'current': 3600.0, 'min': 800.0, 'max': 4900.0}, {'current': 3600.0, 'min': 800.0, 'max': 4900.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 4900.0}, {'current': 3600.0, 'min': 800.0, 'max': 4900.0}, {'current': 3600.0, 'min': 800.0, 'max': 4900.0}, {'current': 4616.975, 'min': 800.0, 'max': 4900.0}], 'disk': {'total': 915.3232879638672, 'used': 795.9488067626953}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 62.6328010559082}}
+2024-04-23 14:03:27,468 INFO    HandlerThread:1412771 [system_monitor.py:probe():211] Finished collecting system info
+2024-04-23 14:03:27,468 INFO    HandlerThread:1412771 [system_monitor.py:probe():214] Publishing system info
+2024-04-23 14:03:27,468 DEBUG   HandlerThread:1412771 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-04-23 14:03:27,469 DEBUG   HandlerThread:1412771 [system_info.py:_save_pip():67] Saving pip packages done
+2024-04-23 14:03:27,469 DEBUG   HandlerThread:1412771 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-04-23 14:03:28,139 INFO    Thread-12 :1412771 [dir_watcher.py:_on_file_created():278] file/dir created: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/wandb-summary.json
+2024-04-23 14:03:28,139 INFO    Thread-12 :1412771 [dir_watcher.py:_on_file_created():278] file/dir created: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/requirements.txt
+2024-04-23 14:03:28,140 INFO    Thread-12 :1412771 [dir_watcher.py:_on_file_created():278] file/dir created: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/conda-environment.yaml
+2024-04-23 14:03:29,034 DEBUG   HandlerThread:1412771 [system_info.py:_save_conda():86] Saving conda packages done
+2024-04-23 14:03:29,034 INFO    HandlerThread:1412771 [system_monitor.py:probe():216] Finished publishing system info
+2024-04-23 14:03:29,039 DEBUG   SenderThread:1412771 [sender.py:send():375] send: files
+2024-04-23 14:03:29,039 INFO    SenderThread:1412771 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-04-23 14:03:29,045 DEBUG   SenderThread:1412771 [sender.py:send():375] send: telemetry
+2024-04-23 14:03:29,049 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-23 14:03:29,050 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: partial_history
+2024-04-23 14:03:29,052 DEBUG   SenderThread:1412771 [sender.py:send():375] send: config
+2024-04-23 14:03:29,053 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: stop_status
+2024-04-23 14:03:29,142 INFO    Thread-12 :1412771 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/conda-environment.yaml
+2024-04-23 14:03:29,143 INFO    Thread-12 :1412771 [dir_watcher.py:_on_file_created():278] file/dir created: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/wandb-metadata.json
+2024-04-23 14:03:29,399 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: telemetry
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 WARNING SenderThread:1412771 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: telemetry
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: metric
+2024-04-23 14:03:29,400 DEBUG   SenderThread:1412771 [sender.py:send():375] send: history
+2024-04-23 14:03:29,401 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: summary_record
+2024-04-23 14:03:29,401 INFO    SenderThread:1412771 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-23 14:03:29,402 DEBUG   SenderThread:1412771 [sender.py:send():375] send: exit
+2024-04-23 14:03:29,402 INFO    SenderThread:1412771 [sender.py:send_exit():598] handling exit code: 0
+2024-04-23 14:03:29,402 INFO    SenderThread:1412771 [sender.py:send_exit():600] handling runtime: 1
+2024-04-23 14:03:29,402 INFO    SenderThread:1412771 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-23 14:03:29,402 INFO    SenderThread:1412771 [sender.py:send_exit():606] send defer
+2024-04-23 14:03:29,403 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:29,403 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 0
+2024-04-23 14:03:29,403 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:29,403 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-04-23 14:03:29,403 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 1
+2024-04-23 14:03:29,403 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:29,403 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 1
+2024-04-23 14:03:29,404 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:29,404 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-04-23 14:03:29,404 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 2
+2024-04-23 14:03:29,404 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:29,404 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 2
+2024-04-23 14:03:29,404 INFO    HandlerThread:1412771 [system_monitor.py:finish():190] Stopping system monitor
+2024-04-23 14:03:29,404 DEBUG   SystemMonitor:1412771 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-04-23 14:03:29,404 DEBUG   SystemMonitor:1412771 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-04-23 14:03:29,404 DEBUG   SystemMonitor:1412771 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-04-23 14:03:29,405 INFO    HandlerThread:1412771 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-23 14:03:29,405 INFO    HandlerThread:1412771 [interfaces.py:finish():202] Joined disk monitor
+2024-04-23 14:03:29,533 INFO    HandlerThread:1412771 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-23 14:03:29,533 INFO    HandlerThread:1412771 [interfaces.py:finish():202] Joined memory monitor
+2024-04-23 14:03:29,534 INFO    HandlerThread:1412771 [interfaces.py:finish():202] Joined network monitor
+2024-04-23 14:03:29,535 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:29,535 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-04-23 14:03:29,535 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 3
+2024-04-23 14:03:29,535 DEBUG   SenderThread:1412771 [sender.py:send():375] send: stats
+2024-04-23 14:03:29,535 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:29,535 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 3
+2024-04-23 14:03:29,536 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:29,536 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-04-23 14:03:29,536 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 4
+2024-04-23 14:03:29,536 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:29,536 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 4
+2024-04-23 14:03:29,537 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:29,537 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-04-23 14:03:29,537 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 5
+2024-04-23 14:03:29,537 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:29,537 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 5
+2024-04-23 14:03:29,538 DEBUG   SenderThread:1412771 [sender.py:send():375] send: summary
+2024-04-23 14:03:29,538 INFO    SenderThread:1412771 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-23 14:03:29,539 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:29,539 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-04-23 14:03:29,539 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 6
+2024-04-23 14:03:29,539 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:29,539 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 6
+2024-04-23 14:03:29,539 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:29,539 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-04-23 14:03:29,545 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: status_report
+2024-04-23 14:03:29,684 INFO    wandb-upload_0:1412771 [upload_job.py:push():137] Uploaded file /tmp/tmp0qnib379wandb/yjyfc1az-wandb-metadata.json
+2024-04-23 14:03:29,877 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 7
+2024-04-23 14:03:29,877 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:29,877 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 7
+2024-04-23 14:03:29,877 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:29,877 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-04-23 14:03:30,097 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-23 14:03:30,142 INFO    Thread-12 :1412771 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/wandb-summary.json
+2024-04-23 14:03:30,142 INFO    Thread-12 :1412771 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/config.yaml
+2024-04-23 14:03:30,142 INFO    Thread-12 :1412771 [dir_watcher.py:_on_file_created():278] file/dir created: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/output.log
+2024-04-23 14:03:31,405 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 8
+2024-04-23 14:03:31,405 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: poll_exit
+2024-04-23 14:03:31,406 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:31,407 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 8
+2024-04-23 14:03:31,407 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:31,407 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-04-23 14:03:31,416 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 9
+2024-04-23 14:03:31,416 DEBUG   SenderThread:1412771 [sender.py:send():375] send: artifact
+2024-04-23 14:03:31,416 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:31,418 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 9
+2024-04-23 14:03:32,143 INFO    Thread-12 :1412771 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/output.log
+2024-04-23 14:03:32,502 INFO    SenderThread:1412771 [sender.py:send_artifact():1474] sent artifact job-https___github.com_khanhluong34_news-title-classification.git_evaluate.py - {'id': 'QXJ0aWZhY3Q6ODA2MTk3NzUy', 'digest': 'f480bfb92d68fb4d8cf7c6b390e89ff7', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_khanhluong34_news-title-classification.git_evaluate.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_khanhluong34_news-title-classification.git_evaluate.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2NTUzOTQwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODA2MTk3NzUy', 'versionIndex': 0}}, 'version': 'v0'}
+2024-04-23 14:03:32,502 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:32,502 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-04-23 14:03:32,502 INFO    SenderThread:1412771 [dir_watcher.py:finish():365] shutting down directory watcher
+2024-04-23 14:03:33,144 INFO    SenderThread:1412771 [dir_watcher.py:finish():395] scan: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files
+2024-04-23 14:03:33,145 INFO    SenderThread:1412771 [dir_watcher.py:finish():409] scan save: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/output.log output.log
+2024-04-23 14:03:33,145 INFO    SenderThread:1412771 [dir_watcher.py:finish():409] scan save: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/config.yaml config.yaml
+2024-04-23 14:03:33,145 INFO    SenderThread:1412771 [dir_watcher.py:finish():409] scan save: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/conda-environment.yaml conda-environment.yaml
+2024-04-23 14:03:33,145 INFO    SenderThread:1412771 [dir_watcher.py:finish():409] scan save: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/wandb-summary.json wandb-summary.json
+2024-04-23 14:03:33,145 INFO    SenderThread:1412771 [dir_watcher.py:finish():409] scan save: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/wandb-metadata.json wandb-metadata.json
+2024-04-23 14:03:33,148 INFO    SenderThread:1412771 [dir_watcher.py:finish():409] scan save: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/requirements.txt requirements.txt
+2024-04-23 14:03:33,148 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 10
+2024-04-23 14:03:33,152 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:33,153 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 10
+2024-04-23 14:03:33,156 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:33,156 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-04-23 14:03:33,156 INFO    SenderThread:1412771 [file_pusher.py:finish():168] shutting down file pusher
+2024-04-23 14:03:33,858 INFO    wandb-upload_1:1412771 [upload_job.py:push():137] Uploaded file /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/config.yaml
+2024-04-23 14:03:33,931 INFO    wandb-upload_2:1412771 [upload_job.py:push():137] Uploaded file /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/conda-environment.yaml
+2024-04-23 14:03:34,055 INFO    wandb-upload_3:1412771 [upload_job.py:push():137] Uploaded file /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/wandb-summary.json
+2024-04-23 14:03:34,093 INFO    wandb-upload_0:1412771 [upload_job.py:push():137] Uploaded file /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/output.log
+2024-04-23 14:03:34,095 INFO    wandb-upload_4:1412771 [upload_job.py:push():137] Uploaded file /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/files/requirements.txt
+2024-04-23 14:03:34,296 INFO    Thread-11 :1412771 [sender.py:transition_state():626] send defer: 11
+2024-04-23 14:03:34,296 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:34,297 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 11
+2024-04-23 14:03:34,297 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:34,297 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-04-23 14:03:34,297 INFO    SenderThread:1412771 [file_pusher.py:join():173] waiting for file pusher
+2024-04-23 14:03:34,297 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 12
+2024-04-23 14:03:34,297 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:34,297 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 12
+2024-04-23 14:03:34,298 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:34,298 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-04-23 14:03:34,523 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 13
+2024-04-23 14:03:34,524 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:34,524 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 13
+2024-04-23 14:03:34,524 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:34,524 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-04-23 14:03:34,524 INFO    SenderThread:1412771 [sender.py:transition_state():626] send defer: 14
+2024-04-23 14:03:34,525 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: defer
+2024-04-23 14:03:34,525 DEBUG   SenderThread:1412771 [sender.py:send():375] send: final
+2024-04-23 14:03:34,525 INFO    HandlerThread:1412771 [handler.py:handle_request_defer():170] handle defer: 14
+2024-04-23 14:03:34,525 DEBUG   SenderThread:1412771 [sender.py:send():375] send: footer
+2024-04-23 14:03:34,525 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: defer
+2024-04-23 14:03:34,525 INFO    SenderThread:1412771 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-04-23 14:03:34,525 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-23 14:03:34,525 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: poll_exit
+2024-04-23 14:03:34,526 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: server_info
+2024-04-23 14:03:34,526 DEBUG   SenderThread:1412771 [sender.py:send_request():402] send_request: server_info
+2024-04-23 14:03:34,529 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: get_summary
+2024-04-23 14:03:34,529 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: sampled_history
+2024-04-23 14:03:34,748 INFO    MainThread:1412771 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2024-04-23 14:03:34,749 INFO    MainThread:1412771 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2024-04-23 14:03:34,750 INFO    MainThread:1412771 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2024-04-23 14:03:34,751 DEBUG   HandlerThread:1412771 [handler.py:handle_request():144] handle_request: shutdown
+2024-04-23 14:03:34,751 INFO    HandlerThread:1412771 [handler.py:finish():845] shutting down handler
+2024-04-23 14:03:35,526 INFO    WriterThread:1412771 [datastore.py:close():298] close: /home/s/luongtk/news-title-classification/wandb/run-20240423_140326-5quwvznm/run-5quwvznm.wandb
+2024-04-23 14:03:35,748 INFO    SenderThread:1412771 [sender.py:finish():1550] shutting down sender
+2024-04-23 14:03:35,749 INFO    SenderThread:1412771 [file_pusher.py:finish():168] shutting down file pusher
+2024-04-23 14:03:35,749 INFO    SenderThread:1412771 [file_pusher.py:join():173] waiting for file pusher

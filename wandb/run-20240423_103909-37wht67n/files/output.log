@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/s/luongtk/news-title-classification/evaluate.py", line 68, in <module>
+    eval(args)
+  File "/home/s/luongtk/news-title-classification/evaluate.py", line 44, in eval
+    f.write(str(eval_metrics), indent=4)
+TypeError: write() takes no keyword arguments

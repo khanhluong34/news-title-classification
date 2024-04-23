@@ -1,1 +1,11 @@
+datasets
+fastapi==0.110.2
+huggingface_hub
+numpy
 peft
+python-dotenv
+scikit_learn
+torch
+transformers
+uvicorn==0.29.0
+bitsandbytes
