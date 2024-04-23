@@ -1,7 +1,3 @@
-Certainly! Here's a README file for your code:
-
----
-
 # News Classification Model Training
 
 This repository features a simple FastAPI deployment endpoint for news classification and a PyTorch setup for training and evaluation using Hugging Face Transformers. We've employed a custom dataset and advanced techniques like quantization LoRA for cost-saving in limited-resource computing.
